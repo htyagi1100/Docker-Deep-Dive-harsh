@@ -82,26 +82,12 @@ root@node-2:~# mysql
 Command 'mysql' not found, but can be installed with:
 apt install mysql-client-core-8.0     # version 8.0.34-0ubuntu0.22.04.1, or
 apt install mariadb-client-core-10.6  # version 1:10.6.12-0ubuntu0.22.04.1
+
+
 root@node-2:~# apt install mysql-client-core-8.0
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
-The following packages were automatically installed and are no longer required:
-  libflashrom1 libftdi1-2
-Use 'apt autoremove' to remove them.
-The following NEW packages will be installed:
-  mysql-client-core-8.0
-0 upgraded, 1 newly installed, 0 to remove and 11 not upgraded.
-Need to get 2,754 kB of archives.
-After this operation, 62.0 MB of additional disk space will be used.
-Get:1 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 mysql-client-core-8.0 amd64 8.0.34-0ubuntu0.22.04.1 [2,754 kB]
-Fetched 2,754 kB in 3s (1,053 kB/s)
-Selecting previously unselected package mysql-client-core-8.0.
-(Reading database ... 182212 files and directories currently installed.)
-Preparing to unpack .../mysql-client-core-8.0_8.0.34-0ubuntu0.22.04.1_amd64.deb ...
-Unpacking mysql-client-core-8.0 (8.0.34-0ubuntu0.22.04.1) ...
-Setting up mysql-client-core-8.0 (8.0.34-0ubuntu0.22.04.1) ...
-Processing triggers for man-db (2.10.2-1) ...
 
 
 
