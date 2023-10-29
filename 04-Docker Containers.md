@@ -1,5 +1,5 @@
 
-# 2. Nginx application container creation part1
+# Lab 2. Nginx application container creation part1
 ```
 docker pull nginx
 docker image ls
@@ -23,7 +23,7 @@ docker container ps
 
 
 
-# 3. Nginx application container creation part2
+# Lab 3. Nginx application container creation part2
 ```
 docker container run -d -t --name nginx-demo --hostname aginxwebserver nginx
 docker container ps
