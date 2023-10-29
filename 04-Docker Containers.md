@@ -91,7 +91,7 @@ Reading state information... Done
 
 
 
-- Connect the mysql docker container database
+# Connect the mysql docker container database
 root@node-2:~# mysql -h 172.17.0.2 -u root -p
 Enter password:
 Welcome to the MySQL monitor.  Commands end with ; or \g.
