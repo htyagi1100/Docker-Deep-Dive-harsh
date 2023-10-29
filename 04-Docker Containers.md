@@ -77,7 +77,7 @@ root@node-2:~# docker container inspect mysql-server
 
 
 
-- Here we can not access our mysql docker container so we need to install mysql package in our docker host machine to talk to our container 
+# Here we can not access our mysql docker container so we need to install mysql package in our docker host machine to talk to our container 
 root@node-2:~# mysql
 Command 'mysql' not found, but can be installed with:
 apt install mysql-client-core-8.0     # version 8.0.34-0ubuntu0.22.04.1, or
@@ -110,7 +110,7 @@ mysql>
 
 
 
-- to create a test database in mysql
+#to create a test database in mysql
 mysql> create database tset;
 Query OK, 1 row affected (0.00 sec)
 
